@@ -1,0 +1,21 @@
+//c program
+/*
+Name:Mervyn Mucharia Mwangi
+Reg:CT100/G/26241/25
+Description:personal info
+*/
+
+#include <stdio.h>
+int main()
+{
+int height;
+height=195;
+int weight;
+weight=62;
+char contact[] = "0717906429";
+
+printf("height: %d cm/n", height);
+printf("weight: %d kg/n", weight);
+printf("contact: %s/n", contact);
+  return 0;
+}
