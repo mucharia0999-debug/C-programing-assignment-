@@ -1,2 +1,2 @@
-# C-programing-assignment-
-first project 
+# C-programing-assignments-
+school projects
