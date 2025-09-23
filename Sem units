@@ -1,0 +1,19 @@
+//C Program
+/*Name:Mervyn Mucharia Mwangi
+Reg:CT100/G/26241/25
+Description:sem units
+*/
+
+#include <stdio.h>
+int main()
+{
+  printf("mathematics for science/n");
+  printf("communication skills/n");
+  printf("essentials of accounting/n");
+  printf("introduction to computer applications/n");
+  printf("introduction to programming and problem solving/n");
+  printf("analogue electronics/n");
+  printf("computer system and organisations/n");
+  printf("fundamentals of ICT");
+return 0;
+}
