@@ -1,0 +1,29 @@
+// C Program
+/*
+Name:Mervyn Mucharia Mwangi
+Reg:CT100/G26241/25
+Description:Simple Interest
+*/
+
+#include <stdio.h>
+int main()
+{
+  float principle, rate, time, interest;
+  
+  //prompt the user to enter principle, rate, time
+  printf("Enter principle amount: ");
+  scanf("%f",  principle);
+  
+  printf("Enter rate: ");
+  scanf("%f",  rate);
+  
+  printf("Enter time: ");
+  scanf("%f", time);
+   
+   //General formular of getting Simple interest
+   interest=(principle * rate * time)/100;
+   
+   //Execution of the details
+   printf("simple interest = %.2f", interest);
+  return 0;
+}
