@@ -1,0 +1,38 @@
+/*
+Name:Mervyn Mucharia Mwangi
+Reg:CT100/G/26241/25
+Description: Students regestration and results records
+*/
+
+# include <stdio.h>
+
+
+  struct student{
+    char name [30];
+    char reg [20];
+    float totalmarks; 
+  };
+   
+  int main() 
+  {
+    FILE * fptr;
+    struct student s;
+    
+    fptr = fopen( "results_dat , txt" , "rb");
+    if (fptr == NULL) { 
+      printf("Error: could not  open the file \n");
+      return 1;
+    }
+     
+     printf("students results: \n ");
+     printf("--------------------------\n");
+     
+ while   (fread(&s , sizeof(struct student), 1, fptr) == 1){
+      printf("Name: %s \n", s.name);
+      printf("Total marks :%2f \n", s.total marks);
+      printf("----------------------------\n");
+    }
+ fclose(fptr);
+  return 0;
+  
+}

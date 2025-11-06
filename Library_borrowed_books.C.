@@ -1,0 +1,30 @@
+/*
+Name:Mervyn Mucharia Mwangi
+Reg:CT100/G/26241/25
+Description:library borrowed books records
+*/
+
+#include <stdio.h>
+int main()
+{
+  FILE * fptr;
+ 
+  fptr= fopen("borrowed_books, txt" , "a");
+  char title [100];
+  
+  //print output on users screen
+  printf("Enter the title of the book:");
+  scanf("%d" , & title);
+  
+  fgets(title , 100 , fptr);
+  
+ //print output in the console
+  fprintf(fptr ,"s" , title );
+  
+  // close the file
+  fclose(fptr);
+  
+  //Output displayed on users screen
+  printf("Books titles successfully stored in borrowed_books ,  txt\n");
+  return 0;
+}
